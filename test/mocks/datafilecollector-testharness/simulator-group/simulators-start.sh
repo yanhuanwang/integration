@@ -58,8 +58,8 @@ docker network ls| grep $DOCKER_SIM_NWNAME > /dev/null || docker network create 
 docker-compose -f docker-compose-template.yml config > docker-compose.yml
 
 docker-compose up -d
-sudo chown $(id -u):$(id -g) consul
-sudo chown $(id -u):$(id -g) consul/consul/
+#sudo chown $(id -u):$(id -g) consul
+#sudo chown $(id -u):$(id -g) consul/consul/
 
 declare -a SFTP_SIM
 declare -a FTPS_SIM
