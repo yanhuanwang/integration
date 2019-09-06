@@ -15,7 +15,7 @@ services:
     ports:
       - "8500:8500"
     volumes:
-      - ./consul/consul/:/consul/config
+      - ./consul/consul/:/consul/config:rw
 
   config-binding-service:
     networks:

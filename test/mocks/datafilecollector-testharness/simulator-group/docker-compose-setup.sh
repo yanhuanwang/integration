@@ -24,5 +24,6 @@ export SFTP_SIMS="localhost:21,localhost:22,localhost:23,localhost:24,localhost:
 export FTPS_SIMS="localhost:1022,localhost:1023,localhost:1024,localhost:1026,localhost:1026" # Comma separated list for FTPS servers host:port
 
 export DR_REDIR_SIM="localhost"                               # Hostname of DR redirect server
-
+#export CURRENT_UID="$(id -u):$(id -g)"
+#export CURRENT_UID="0:0"
 source ./simulators-start.sh
