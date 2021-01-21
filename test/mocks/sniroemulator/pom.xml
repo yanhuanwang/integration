@@ -22,7 +22,7 @@
     <dockerLocation>${basedir}/target</dockerLocation>
     <docker.tag>latest</docker.tag>
     <docker.maven.plugin.version>1.0.0</docker.maven.plugin.version>
-    <versions.jackson>2.8.9</versions.jackson>
+    <versions.jackson>2.12.1</versions.jackson>
     <jetty.version>9.2.22.v20170606</jetty.version>
     <start-class>org.onap.integration.test.mocks.sniroemulator.MockApplication</start-class>
 </properties>
